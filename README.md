@@ -59,7 +59,7 @@
 >    - by default, this is **P. Dollar's pedestrian detector.**, from https://github.com/pdollar/toolbox, which is from **Piotr's Computer Vision Matlab Toolbox**
 >    - http://vision.ucsd.edu/~pdollar/toolbox/doc/ not working anymore!!
 >    - Aggregate Channel Features (ACF) object detection
-
+> -  **WILL PUT DETECTIONS AT `sceneInfo.imgFolder/det.txt`**
 
 
 
