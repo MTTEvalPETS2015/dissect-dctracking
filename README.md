@@ -25,13 +25,13 @@
 > - % function sceneInfo=getSceneInfo(scenario, opt) from motutils/getSceneInfo.m
 > - % if string, read from file, 
     
-    ```matlab
-    if ischar(scenario)
-      sceneInfo=readSceneOptions(scenario);
-      sceneInfo.yshift=0;
-      return;
-    end
-    ```
+```matlab
+if ischar(scenario)
+  sceneInfo=readSceneOptions(scenario);
+  sceneInfo.yshift=0;
+  return;
+end
+```
 > - function sceneInfo=readSceneOptions(inifile) from motutils/readSceneOptions.m
 > - defaults to `scenes/scene2D.ini`
 > - ini sections:
