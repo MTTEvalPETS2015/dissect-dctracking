@@ -38,7 +38,9 @@ end
 >   - [Source]
 >   - [Miscellaneous]
 
-(3) sceneInfo=checkScene(sceneInfo); %   from motutils/getSceneInfo.m
+(3) sceneInfo=getSceneInfo(scenario,opti); ---> sceneInfo=readSceneOptions(scenario); ---> sceneInfo=checkScene(sceneInfo);
+
+(4) sceneInfo=checkScene(sceneInfo); %   from motutils/getSceneInfo.m
 > - Required field
 >    - imgFolder
 >    - frameRate
