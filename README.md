@@ -65,6 +65,12 @@ end
 >    - Aggregate Channel Features (ACF) object detection
 > -  **WILL PUT DETECTIONS AT `sceneInfo.imgFolder/det.txt`**
 
-
+(3) Converting detections from CP_MCF to DCO_X format
+> - comment out the following lines from `getDetectionsFromDPMCF_DCOX.m`, namely `motutils/parseDetections.m`
+```matlab
+    if scenario<190
+        detections=rescaleConfidence(detections,opt);
+    end
+```
 
 
