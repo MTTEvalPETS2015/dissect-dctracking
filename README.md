@@ -63,7 +63,7 @@ end
 >    - by default, this is **P. Dollar's pedestrian detector.**, from https://github.com/pdollar/toolbox, which is from **Piotr's Computer Vision Matlab Toolbox**
 >    - http://vision.ucsd.edu/~pdollar/toolbox/doc/ not working anymore!!
 >    - Aggregate Channel Features (ACF) object detection
-> -  **WILL PUT DETECTIONS AT `sceneInfo.imgFolder/det.txt`**
+> -  **WILL SAVE DETECTIONS TO `sceneInfo.imgFolder/det.txt`**
 
 (3) Converting detections from CP_MCF to DCO_X format
 > - comment out the following lines from `getDetectionsFromDPMCF_DCOX.m`, namely `motutils/parseDetections.m`
